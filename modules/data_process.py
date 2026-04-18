@@ -15,3 +15,8 @@ def limpiar_nulos(dataframe):
         print("Valores nulos eliminados")
         return df_limpio
     return None
+
+def estandarizar_texto(df, columna):
+    
+    df[columna] = df[columna].astype(str).str.lower().str.strip()
+    return df
