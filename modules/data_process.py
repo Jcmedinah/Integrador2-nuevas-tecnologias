@@ -15,3 +15,10 @@ def limpiar_nulos(dataframe):
         print("Valores nulos eliminados")
         return df_limpio
     return None
+
+def mapear_valores(dataframe, columna, diccionario):
+    if dataframe is not None and columna in dataframe.columns:
+        dataframe[columna] = dataframe[columna].replace(diccionario)
+        print(f"✅ Valores de '{columna}' estandarizados.")
+        return dataframe
+    return dataframe
