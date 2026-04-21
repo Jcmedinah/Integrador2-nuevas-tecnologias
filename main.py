@@ -3,16 +3,16 @@ from modules.data_process import cargar_datos, limpiar_nulos, estandarizar_texto
 
 
 def main():
-    df_ventas = cargar_datos("data/raw/ventas.csv")
-    df_productos = cargar_datos("data/raw/productos.csv")
-    df_ventas = limpiar_nulos(df_ventas)
-    df_productos = limpiar_nulos(df_productos)
+    df_prestamos = cargar_datos("data/raw/articles.csv")
+    df_articulos = cargar_datos("data/raw/loans.csv")
+    df_prestamos = limpiar_nulos(df_prestamos)
+    df_articulos = limpiar_nulos(df_articulos)
     
-    df_productos = estandarizar_texto(df_productos, "nombre_producto")
-    df_productos = estandarizar_texto(df_productos, "categoria")
-    df_ventas = estandarizar_texto(df_ventas, "ciudad_cliente")
+    df_prestamos = estandarizar_texto(df_prestamos, "status")
+    df_articulos = estandarizar_texto(df_articulos, "name")
 
-    print("📊 Productos más frecuentes:")
-    print(df_productos["nombre_producto"].value_counts())
+
+    print("Productos más frecuentes:")
+    print(df_articulos["name"].value_counts())
 if __name__ == "__main__":
     main()
