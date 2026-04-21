@@ -1,0 +1,111 @@
+item_id,name,description,category_id,category_name,quantity_available,price_cop,created_at,status
+1,  Laptop HP ProBook,Laptop para uso estudiantil con 8GB RAM,CAT-1,TECNOLOGÍA,,"$154,902",15/01/2026,Activo
+2,Microscopio Binocular ,,2,Laboratorio,13,986213,2025-03-13,activo
+3,GUITARRA ACÚSTICA,Guitarra para clases de música,5,Música,4,2888283,2026-01-15,Inactivo
+4,Calculadora Científica,Calculadora fx-991,7,Matemáticas,3,2526705,2025/08/05,activo
+5,  balón de fútbol,,4,Deportes,-1,442986,2025-04-22,ACTIVO
+6,Kit de Pintura al Óleo,Kit completo de pinturas y pinceles,3,Arte,30,2575049,14/01/2025,Inactivo
+7,Libro de Álgebra Lineal,Texto universitario edición 2022,7,Matemáticas,10,2775812,2025/12/26,Inactivo
+8,Cámara Réflex Canon,Cámara para proyectos audiovisuales,1,Tecnología,24,"$974,594",2025-08-18,Inactivo
+9,Teclado MIDI,Teclado controlador USB 61 teclas,5,Música,15,77257,2026-01-24,ACTIVO
+10,Set de Tubos de Ensayo,Vidriería para prácticas,2,LABORATORIO,25,1477114,2025/05/23,ACTIVO
+11,maletín de herramientas,,1,Tecnología,11,1461779,22/02/2025,activo
+12,  Proyector Epson  ,Proyector HD para aulas,1,Tecnología,22,$ 455657,2025-07-03,Activo
+13,violín 4/4,Instrumento de cuerdas para orquesta,5,Música,14,232244,2026/01/09,inactivo
+14,OSCILOSCOPIO Digital,Equipo de medición electrónica,CAT-1,Tecnología,5,1637688,2025-02-10,Inactivo
+15,Trípode Fotográfico,Trípode ajustable hasta 180cm,3,Arte,16,"$2,686,706",2025-11-13,Activo
+16,Diccionario Oxford,Diccionario inglés-español,8,Idiomas,10,341735,24/01/2025,
+17,Globo Terráqueo,Globo político escala 1:50000000,10,Geografía,12,1263781,2025-02-10,ACTIVO
+18,Compás de Precisión,Compás de metal con regla,7,Matemáticas,,1644364,2025-05-23,inactivo
+19,Flauta Traversa,Flauta de concierto en Do,5,MÚSICA,21,732220,2025/07/09,Activo
+20,Reloj de Arena Pedagógico,Material pedagógico para tiempo,9,Historia,11,2860918,2025-05-17,activo
+21,Casco de Realidad Virtual,Casco VR con controladores,1,Tecnología,2,2604880,22/11/2025,ACTIVO
+22,tablet Samsung,Tablet Android 10 pulgadas,1,Tecnología,13,"$735,359",2025/08/25,inactivo
+23,Dron DJI Mini,Dron para fotografía aérea,1,Tecnología,15,$ 2734353,2025-12-19,Inactivo
+24,Amplificador de Guitarra,Amplificador 50W para guitarra,5,Música,12,2921480,2025-06-16,activo
+25,Balanza Digital,Balanza de precisión 0.01g,2,Laboratorio,12,184638,2025/06/11,inactivo
+26,Mapa Mural Colombia,Mapa laminado Colombia político,10,Geografía,15,327615,19/04/2025,Inactivo
+27,Estuche de Compases,Estuche con compás regla y transportador,CAT-7,Matemáticas,18,941820,2025-12-02,inactivo
+28,Saxofón Alto,Saxofón dorado con estuche,5,MÚSICA,23,2746316,2025/08/23,ACTIVO
+29,Cronómetro Deportivo,Cronómetro profesional,4,Deportes,14,"$635,652",2025-05-07,activo
+30,LENTES DE SEGURIDAD,,2,Laboratorio,14,2501931,2025-08-08,Inactivo
+31,Kit de Robótica Lego,Kit educativo de robótica y programación,1,Tecnología,23,1568323,23/04/2025,ACTIVO
+32,Impresora 3D,Impresora 3D de filamento PLA,1,Tecnología,30,2119955,2025-02-16,activo
+33,Monitor Full HD,Monitor 24 pulgadas resolución FHD,1,Tecnología,5,691062,2025-11-18,ACTIVO
+34,Batería Electrónica,Batería electrónica 9 pads,5,Música,25,$ 2551520,2025/02/02,inactivo
+35,Maletín de Biología,Maletín con elementos de biología,6,Ciencias,,2549337,2025-08-28,Inactivo
+36,Telescopio Refractor,Telescopio para observación astronómica,6,Ciencias,14,"$2,370,397",06/01/2025,activo
+37,  PIANO DIGITAL  ,Piano digital 88 teclas pesadas,5,MÚSICA,5,2909300,2025/10/02,Activo
+38,Silla Ergonómica,Silla con soporte lumbar ajustable,3,Arte,19,517883,2025-05-31,inactivo
+39,Pizarrón Portátil,Pizarrón blanco con borrador magnético,3,Arte,8,1953055,2025-01-02,activo
+40,Juego de Geometría,Compás regla y escuadra,CAT-7,Matemáticas,14,2149610,2026/01/26,ACTIVO
+41,  Laptop HP ProBook,Laptop para uso estudiantil con 8GB RAM,1,Tecnología,30,496319,17/11/2025,Activo
+42,Microscopio Binocular ,,2,Laboratorio,30,2604206,2025-04-12,ACTIVO
+43,GUITARRA ACÚSTICA,Guitarra para clases de música,5,Música,21,"$727,585",2025/10/04,Inactivo
+44,Calculadora Científica,Calculadora fx-991,7,Matemáticas,-2,2562155,2025-06-15,inactivo
+45,  balón de fútbol,,4,Deportes,-1,$ 519207,2025-07-05,Activo
+46,Kit de Pintura al Óleo,Kit completo de pinturas y pinceles,3,ARTE,13,292955,04/05/2025,Inactivo
+47,Libro de Álgebra Lineal,Texto universitario edición 2022,7,Matemáticas,3,409256,2026-01-10,inactivo
+48,Cámara Réflex Canon,Cámara para proyectos audiovisuales,1,Tecnología,2,2284331,2026-01-28,ACTIVO
+49,Teclado MIDI,Teclado controlador USB 61 teclas,5,Música,6,2817195,2025/09/01,Inactivo
+50,Set de Tubos de Ensayo,Vidriería para prácticas,2,Laboratorio,8,"$1,161,728",2025-09-28,Inactivo
+51,maletín de herramientas,,1,Tecnología,25,938346,04/10/2025,activo
+52,  Proyector Epson  ,Proyector HD para aulas,1,Tecnología,,1357432,2025/07/24,activo
+53,violín 4/4,Instrumento de cuerdas para orquesta,CAT-5,Música,21,1887524,2025-09-22,inactivo
+54,OSCILOSCOPIO Digital,Equipo de medición electrónica,1,Tecnología,5,1089791,2025-04-26,activo
+55,Trípode Fotográfico,Trípode ajustable hasta 180cm,3,ARTE,19,138224,2025/10/29,Inactivo
+56,Diccionario Oxford,Diccionario inglés-español,8,Idiomas,12,$ 2518096,23/04/2025,activo
+57,Globo Terráqueo,Globo político escala 1:50000000,10,Geografía,2,"$2,697,037",2025-01-31,ACTIVO
+58,Compás de Precisión,Compás de metal con regla,7,Matemáticas,2,181755,2025/06/19,activo
+59,Flauta Traversa,Flauta de concierto en Do,5,Música,30,1048263,2025-05-23,activo
+60,Reloj de Arena Pedagógico,Material pedagógico para tiempo,9,Historia,29,948574,2025-10-04,ACTIVO
+61,Casco de Realidad Virtual,Casco VR con controladores,1,Tecnología,28,1069204,31/08/2025,inactivo
+62,tablet Samsung,Tablet Android 10 pulgadas,1,Tecnología,10,445631,2025-02-19,activo
+63,Dron DJI Mini,Dron para fotografía aérea,1,Tecnología,25,1536031,2025-08-05,inactivo
+64,Amplificador de Guitarra,Amplificador 50W para guitarra,5,MÚSICA,27,"$277,210",2025/12/11,activo
+65,Balanza Digital,Balanza de precisión 0.01g,2,Laboratorio,4,304227,2025-07-26,activo
+66,Mapa Mural Colombia,Mapa laminado Colombia político,CAT-10,Geografía,19,508307,08/05/2025,ACTIVO
+67,Estuche de Compases,Estuche con compás regla y transportador,7,Matemáticas,10,$ 2299345,2025/08/18,ACTIVO
+68,Saxofón Alto,Saxofón dorado con estuche,5,Música,25,819604,2025-05-23,inactivo
+69,Cronómetro Deportivo,Cronómetro profesional,4,Deportes,,366187,2025-08-15,Inactivo
+70,LENTES DE SEGURIDAD,,2,Laboratorio,4,262182,2025/11/30,Inactivo
+71,Kit de Robótica Lego,Kit educativo de robótica y programación,1,Tecnología,-2,"$441,172",21/01/2026,ACTIVO
+72,Impresora 3D,Impresora 3D de filamento PLA,1,Tecnología,8,1754624,2025-09-06,inactivo
+73,Monitor Full HD,Monitor 24 pulgadas resolución FHD,1,TECNOLOGÍA,11,1732084,2025/01/31,ACTIVO
+74,Batería Electrónica,Batería electrónica 9 pads,5,Música,22,59040,2025-07-19,Activo
+75,Maletín de Biología,Maletín con elementos de biología,6,Ciencias,27,1246421,2025-08-05,activo
+76,Telescopio Refractor,Telescopio para observación astronómica,6,Ciencias,29,699264,08/04/2025,Activo
+77,  PIANO DIGITAL  ,Piano digital 88 teclas pesadas,5,Música,11,295296,2025-10-24,activo
+78,Silla Ergonómica,Silla con soporte lumbar ajustable,3,Arte,1,"$1,365,353",2025-01-30,activo
+79,Pizarrón Portátil,Pizarrón blanco con borrador magnético,CAT-3,Arte,28,2159107,2025/09/29,ACTIVO
+80,Juego de Geometría,Compás regla y escuadra,7,Matemáticas,1,2179987,2025-02-11,ACTIVO
+81,  Laptop HP ProBook,Laptop para uso estudiantil con 8GB RAM,1,Tecnología,2,2545758,04/02/2025,activo
+82,Microscopio Binocular ,,2,LABORATORIO,13,1743557,2025/03/03,Inactivo
+83,GUITARRA ACÚSTICA,Guitarra para clases de música,5,Música,13,2478162,2025-11-01,activo
+84,Calculadora Científica,Calculadora fx-991,7,Matemáticas,3,1808356,2025-12-03,Inactivo
+85,  balón de fútbol,,4,Deportes,18,"$1,143,730",2025/04/15,activo
+86,Kit de Pintura al Óleo,Kit completo de pinturas y pinceles,3,Arte,,1051121,16/05/2025,inactivo
+87,Libro de Álgebra Lineal,Texto universitario edición 2022,7,Matemáticas,6,2867272,2025-11-27,Activo
+88,Cámara Réflex Canon,Cámara para proyectos audiovisuales,1,Tecnología,27,1376143,2026/01/20,activo
+89,Teclado MIDI,Teclado controlador USB 61 teclas,5,Música,-2,$ 1972188,2025-11-15,Inactivo
+90,Set de Tubos de Ensayo,Vidriería para prácticas,2,Laboratorio,4,357277,2025-10-03,ACTIVO
+91,maletín de herramientas,,1,TECNOLOGÍA,30,1162331,09/03/2025,Activo
+92,  Proyector Epson  ,Proyector HD para aulas,CAT-1,Tecnología,2,"$1,074,603",2025-07-09,Activo
+93,violín 4/4,Instrumento de cuerdas para orquesta,5,Música,8,1887879,2025-10-06,activo
+94,OSCILOSCOPIO Digital,Equipo de medición electrónica,1,Tecnología,17,2615562,2025/12/01,Inactivo
+95,Trípode Fotográfico,Trípode ajustable hasta 180cm,3,Arte,-2,2851221,2025-10-11,Activo
+96,Diccionario Oxford,Diccionario inglés-español,8,Idiomas,4,613257,16/05/2025,activo
+97,Globo Terráqueo,Globo político escala 1:50000000,10,Geografía,4,2370388,2025/03/21,Activo
+98,Compás de Precisión,Compás de metal con regla,7,Matemáticas,16,2586840,2025-04-18,activo
+99,Flauta Traversa,Flauta de concierto en Do,5,Música,19,"$903,949",2025-12-18,activo
+100,Reloj de Arena Pedagógico,Material pedagógico para tiempo,9,HISTORIA,14,$ 2169839,2025/09/08,Activo
+101,Casco de Realidad Virtual,Casco VR con controladores,1,Tecnología,1,437127,21/11/2025,inactivo
+102,tablet Samsung,Tablet Android 10 pulgadas,1,Tecnología,15,234913,2025-01-02,Activo
+103,Dron DJI Mini,Dron para fotografía aérea,1,Tecnología,,2722247,2025/05/15,ACTIVO
+104,Amplificador de Guitarra,Amplificador 50W para guitarra,5,Música,26,2363915,2025-12-28,inactivo
+105,Balanza Digital,Balanza de precisión 0.01g,CAT-2,Laboratorio,-2,519233,2025-02-08,activo
+106,Mapa Mural Colombia,Mapa laminado Colombia político,10,Geografía,7,"$2,338,371",19/01/2025,Activo
+107,Estuche de Compases,Estuche con compás regla y transportador,7,Matemáticas,7,1852656,2025-03-07,activo
+108,Saxofón Alto,Saxofón dorado con estuche,5,Música,17,1579459,2025-01-21,Activo
+109,Cronómetro Deportivo,Cronómetro profesional,4,DEPORTES,11,2910795,2025/05/08,activo
+110,LENTES DE SEGURIDAD,,2,Laboratorio,4,1533435,2026-02-04,Inactivo
