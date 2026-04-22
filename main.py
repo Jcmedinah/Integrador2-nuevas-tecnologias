@@ -10,13 +10,14 @@ def main():
     
     df_prestamos = estandarizar_texto(df_prestamos, "status")
     df_articulos = estandarizar_texto(df_articulos, "name")
-    df_prestamos = mapear_valores(df_prestamos, "status", mapa_status)
+    
     mapa_status = {
         "p": "prestado",
         "d": "disponible",
         "PRESTADO": "prestado",
         "DISPONIBLE": "disponible"
     }
+    df_prestamos = mapear_valores(df_prestamos, "status", mapa_status)
     df_merge = pd.merge(df_prestamos, df_articulos, on="item_id")
     
     
