@@ -16,9 +16,13 @@ def limpiar_nulos(dataframe):
         return df_limpio
     return None
 
+def estandarizar_texto(df, columna):
+    df[columna] = df[columna].astype(str).str.lower().str.strip()
+    return df
+
 def mapear_valores(dataframe, columna, diccionario):
     if dataframe is not None and columna in dataframe.columns:
         dataframe[columna] = dataframe[columna].replace(diccionario)
-        print(f"✅ Valores de '{columna}' estandarizados.")
+        print(f"Valores de '{columna}' estandarizados.")
         return dataframe
     return dataframe

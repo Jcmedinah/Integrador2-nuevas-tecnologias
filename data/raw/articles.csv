@@ -1,0 +1,111 @@
+item_id,name,description,category_id,quantity_available,created_at,updated_at
+1,  Laptop HP ProBook,Laptop para uso estudiantil con 8GB RAM,CAT-1,,13/01/2025,2025-02-05
+2,Microscopio Binocular ,,2,15,2025-05-06,2025-05-13
+3,GUITARRA ACÚSTICA,Guitarra para clases de música,5,6,2026-01-13,2026-01-16
+4,Calculadora Científica,Calculadora fx-991,7,3,2025/10/30,2025-11-12
+5,  balón de fútbol,,4,0,2025-01-16,2025-01-18
+6,Kit de Pintura al Óleo,Kit completo de pinturas y pinceles,3,11,30/04/2025,2025-05-16
+7,Libro de Álgebra Lineal,Texto universitario edición 2022,7,-1,2025/10/15,2025-10-21
+8,Cámara Réflex Canon,Cámara para proyectos audiovisuales,1,24,2025-04-23,2025-05-07
+9,Teclado MIDI,Teclado controlador USB 61 teclas,5,15,2025-01-04,2025-01-28
+10,Set de Tubos de Ensayo,Vidriería para prácticas,2,8,2025/12/24,2026-01-06
+11,maletín de herramientas,,6,19,23/05/2025,2025-05-27
+12,  Proyector Epson  ,Proyector HD para aulas,1,11,2026-01-26,2026-02-05
+13,violín 4/4,Instrumento de cuerdas para orquesta,5,4,2025/02/17,2025-03-01
+14,OSCILOSCOPIO Digital,Equipo de medición electrónica,CAT-1,4,2025-07-03,2025-07-30
+15,Trípode Fotográfico,Trípode ajustable hasta 180cm,3,20,2025-11-06,2025-11-14
+16,Diccionario Oxford,Diccionario inglés-español,8,0,09/01/2026,2026-01-23
+17,Globo Terráqueo,Globo político escala 1:50000000,10,5,2025-07-13,2025-07-15
+18,Compás de Precisión,Compás de metal con regla,7,,2025-11-18,2025-12-07
+19,Flauta Traversa,Flauta de concierto en Do,5,21,2025/10/23,2025-10-29
+20,Reloj de Arena Pedagógico,Material pedagógico para tiempo,9,2,2025-01-24,2025-02-14
+21,Casco de Realidad Virtual,Casco VR con controladores,1,12,31/01/2026,2026-02-09
+22,tablet Samsung,Tablet Android 10 pulgadas,1,3,2025/04/30,2025-05-27
+23,Dron DJI Mini,Dron para fotografía aérea,1,4,2025-07-14,2025-07-22
+24,Amplificador de Guitarra,Amplificador 50W para guitarra,5,27,2025-11-22,2025-12-18
+25,Balanza Digital,Balanza de precisión 0.01g,2,21,2025/03/25,2025-04-05
+26,Mapa Mural Colombia,Mapa laminado Colombia político,10,20,18/04/2025,2025-05-09
+27,Estuche de Compases,Estuche con compás regla y transportador,CAT-7,15,2025-12-26,2026-01-24
+28,Saxofón Alto,Saxofón dorado con estuche,5,2,2025/11/08,2025-11-28
+29,Cronómetro Deportivo,Cronómetro profesional,4,8,2025-10-01,2025-10-24
+30,LENTES DE SEGURIDAD,,2,13,2025-03-25,2025-04-08
+31,Kit de Robótica Lego,Kit educativo de robótica y programación,1,22,19/05/2025,2025-06-17
+32,Impresora 3D,Impresora 3D de filamento PLA,1,12,2025-12-17,2025-12-27
+33,Monitor Full HD,Monitor 24 pulgadas resolución FHD,1,1,2025-04-28,2025-05-24
+34,Batería Electrónica,Batería electrónica 9 pads,5,0,2025/06/11,2025-06-23
+35,Maletín de Biología,Maletín con elementos de biología,6,,2025-02-03,2025-02-09
+36,Telescopio Refractor,Telescopio para observación astronómica,6,18,19/04/2025,2025-05-09
+37,  PIANO DIGITAL  ,Piano digital 88 teclas pesadas,5,29,2025/07/22,2025-08-19
+38,Silla Ergonómica,Silla con soporte lumbar ajustable,3,27,2025-03-15,2025-03-23
+39,Pizarrón Portátil,Pizarrón blanco con borrador magnético,3,6,2025-05-07,2025-05-30
+40,Juego de Geometría,Compás regla y escuadra,CAT-7,14,2026/01/18,2026-02-05
+41,  Laptop HP ProBook,Laptop para uso estudiantil con 8GB RAM,1,25,26/10/2025,2025-11-07
+42,Microscopio Binocular ,,2,21,2025-04-23,2025-04-27
+43,GUITARRA ACÚSTICA,Guitarra para clases de música,5,30,2025/09/10,2025-09-12
+44,Calculadora Científica,Calculadora fx-991,7,1,2025-02-26,2025-03-02
+45,  balón de fútbol,,4,8,2025-12-15,2025-12-28
+46,Kit de Pintura al Óleo,Kit completo de pinturas y pinceles,3,2,17/07/2025,2025-07-29
+47,Libro de Álgebra Lineal,Texto universitario edición 2022,7,27,2025-09-28,2025-10-06
+48,Cámara Réflex Canon,Cámara para proyectos audiovisuales,1,-2,2025-12-15,2026-01-07
+49,Teclado MIDI,Teclado controlador USB 61 teclas,5,5,2025/12/16,2026-01-13
+50,Set de Tubos de Ensayo,Vidriería para prácticas,2,15,2026-01-29,2026-02-18
+51,maletín de herramientas,,6,19,27/02/2025,2025-03-08
+52,  Proyector Epson  ,Proyector HD para aulas,1,,2025/03/22,2025-04-05
+53,violín 4/4,Instrumento de cuerdas para orquesta,CAT-5,-2,2026-01-05,2026-02-02
+54,OSCILOSCOPIO Digital,Equipo de medición electrónica,1,14,2025-09-14,2025-10-08
+55,Trípode Fotográfico,Trípode ajustable hasta 180cm,3,9,2025/09/17,2025-10-16
+56,Diccionario Oxford,Diccionario inglés-español,8,4,17/11/2025,2025-11-26
+57,Globo Terráqueo,Globo político escala 1:50000000,10,30,2025-11-08,2025-11-14
+58,Compás de Precisión,Compás de metal con regla,7,7,2025/07/11,2025-08-04
+59,Flauta Traversa,Flauta de concierto en Do,5,8,2025-10-04,2025-11-03
+60,Reloj de Arena Pedagógico,Material pedagógico para tiempo,9,-2,2025-11-03,2025-11-13
+61,Casco de Realidad Virtual,Casco VR con controladores,1,29,10/01/2025,2025-01-13
+62,tablet Samsung,Tablet Android 10 pulgadas,1,21,2025-06-07,2025-06-14
+63,Dron DJI Mini,Dron para fotografía aérea,1,1,2025-05-04,2025-06-01
+64,Amplificador de Guitarra,Amplificador 50W para guitarra,5,3,2025/02/13,2025-03-08
+65,Balanza Digital,Balanza de precisión 0.01g,2,29,2025-02-05,2025-03-01
+66,Mapa Mural Colombia,Mapa laminado Colombia político,CAT-10,6,07/03/2025,2025-03-28
+67,Estuche de Compases,Estuche con compás regla y transportador,7,28,2025/10/09,2025-10-14
+68,Saxofón Alto,Saxofón dorado con estuche,5,14,2025-09-28,2025-10-25
+69,Cronómetro Deportivo,Cronómetro profesional,4,,2025-04-19,2025-05-18
+70,LENTES DE SEGURIDAD,,2,10,2026/01/01,2026-01-10
+71,Kit de Robótica Lego,Kit educativo de robótica y programación,1,23,10/12/2025,2025-12-30
+72,Impresora 3D,Impresora 3D de filamento PLA,1,21,2025-08-13,2025-09-10
+73,Monitor Full HD,Monitor 24 pulgadas resolución FHD,1,26,2025/03/03,2025-03-10
+74,Batería Electrónica,Batería electrónica 9 pads,5,12,2025-02-02,2025-02-12
+75,Maletín de Biología,Maletín con elementos de biología,6,-1,2025-10-29,2025-11-15
+76,Telescopio Refractor,Telescopio para observación astronómica,6,12,29/10/2025,2025-11-05
+77,  PIANO DIGITAL  ,Piano digital 88 teclas pesadas,5,-2,2025-02-06,2025-02-28
+78,Silla Ergonómica,Silla con soporte lumbar ajustable,3,1,2025-04-28,2025-04-30
+79,Pizarrón Portátil,Pizarrón blanco con borrador magnético,CAT-3,0,2025/06/19,2025-06-21
+80,Juego de Geometría,Compás regla y escuadra,7,30,2025-05-02,2025-05-10
+81,  Laptop HP ProBook,Laptop para uso estudiantil con 8GB RAM,1,29,20/04/2025,2025-05-07
+82,Microscopio Binocular ,,2,6,2026/01/06,2026-02-04
+83,GUITARRA ACÚSTICA,Guitarra para clases de música,5,28,2025-05-05,2025-05-30
+84,Calculadora Científica,Calculadora fx-991,7,28,2025-07-28,2025-08-03
+85,  balón de fútbol,,4,4,2025/02/19,2025-03-12
+86,Kit de Pintura al Óleo,Kit completo de pinturas y pinceles,3,,01/07/2025,2025-07-14
+87,Libro de Álgebra Lineal,Texto universitario edición 2022,7,24,2025-08-28,2025-09-24
+88,Cámara Réflex Canon,Cámara para proyectos audiovisuales,1,1,2025/12/11,2025-12-31
+89,Teclado MIDI,Teclado controlador USB 61 teclas,5,4,2025-02-01,2025-02-13
+90,Set de Tubos de Ensayo,Vidriería para prácticas,2,19,2025-02-25,2025-03-04
+91,maletín de herramientas,,6,10,08/04/2025,2025-04-25
+92,  Proyector Epson  ,Proyector HD para aulas,CAT-1,26,2025-03-13,2025-03-26
+93,violín 4/4,Instrumento de cuerdas para orquesta,5,9,2025-05-23,2025-06-06
+94,OSCILOSCOPIO Digital,Equipo de medición electrónica,1,13,2025/02/08,2025-02-22
+95,Trípode Fotográfico,Trípode ajustable hasta 180cm,3,4,2025-01-26,2025-02-15
+96,Diccionario Oxford,Diccionario inglés-español,8,-2,17/02/2025,2025-03-18
+97,Globo Terráqueo,Globo político escala 1:50000000,10,13,2025/03/27,2025-04-09
+98,Compás de Precisión,Compás de metal con regla,7,29,2025-09-04,2025-09-10
+99,Flauta Traversa,Flauta de concierto en Do,5,23,2025-01-31,2025-02-05
+100,Reloj de Arena Pedagógico,Material pedagógico para tiempo,9,22,2025/01/02,2025-01-14
+101,Casco de Realidad Virtual,Casco VR con controladores,1,14,21/08/2025,2025-08-30
+102,tablet Samsung,Tablet Android 10 pulgadas,1,25,2025-12-23,2026-01-22
+103,Dron DJI Mini,Dron para fotografía aérea,1,,2025/03/21,2025-03-27
+104,Amplificador de Guitarra,Amplificador 50W para guitarra,5,16,2025-04-22,2025-05-22
+105,Balanza Digital,Balanza de precisión 0.01g,CAT-2,1,2025-10-24,2025-11-16
+106,Mapa Mural Colombia,Mapa laminado Colombia político,10,1,18/01/2026,2026-01-28
+107,Estuche de Compases,Estuche con compás regla y transportador,7,1,2025-01-26,2025-02-13
+108,Saxofón Alto,Saxofón dorado con estuche,5,28,2025-09-15,2025-10-14
+109,Cronómetro Deportivo,Cronómetro profesional,4,8,2025/01/30,2025-03-01
+110,LENTES DE SEGURIDAD,,2,30,2025-02-11,2025-03-10
