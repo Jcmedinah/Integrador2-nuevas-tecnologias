@@ -1,5 +1,5 @@
 import pandas as pd
-from modules.data_process import cargar_datos, limpiar_nulos, estandarizar_texto
+from modules.data_process import cargar_datos, limpiar_nulos, estandarizar_texto, mapear_valores
 
 
 def main():
@@ -26,5 +26,13 @@ def main():
 
     print("Productos más frecuentes:")
     print(df_articulos["name"].value_counts())
+    
+    mapa_status = {
+        "p": "prestado",
+        "d": "disponible",
+        "PRESTADO": "prestado",
+        "DISPONIBLE": "disponible"
+    }
+    df_prestamos = mapear_valores(df_prestamos, "status", mapa_status)
 if __name__ == "__main__":
     main()
