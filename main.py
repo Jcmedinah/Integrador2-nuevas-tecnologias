@@ -1,5 +1,5 @@
 import pandas as pd
-from modules.data_process import cargar_datos, limpiar_nulos, estandarizar_texto
+from modules.data_process import cargar_datos, limpiar_nulos, estandarizar_texto, mapear_valores
 
 
 def main():
@@ -10,9 +10,16 @@ def main():
     
     df_prestamos = estandarizar_texto(df_prestamos, "status")
     df_articulos = estandarizar_texto(df_articulos, "name")
-    
+    df_prestamos = mapear_valores(df_prestamos, "status", mapa_status)
+    mapa_status = {
+        "p": "prestado",
+        "d": "disponible",
+        "PRESTADO": "prestado",
+        "DISPONIBLE": "disponible"
+    }
     df_merge = pd.merge(df_prestamos, df_articulos, on="item_id")
-
+    
+    
 
     print("Productos más frecuentes:")
     print(df_articulos["name"].value_counts())
@@ -26,5 +33,6 @@ def main():
     print(df_sillas)
 
 
+   
 if __name__ == "__main__":
     main()
