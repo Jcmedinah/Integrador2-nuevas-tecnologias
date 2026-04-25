@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 def cargar_datos(ruta_archivo):
     try:
         dataframe = pd.read_csv(ruta_archivo)
@@ -26,3 +27,12 @@ def mapear_valores(dataframe, columna, diccionario):
         print(f"Valores de '{columna}' estandarizados.")
         return dataframe
     return dataframe
+
+def crear_Archivo(dataframe):
+    ruta = "./data/procesed"
+    try:
+        os.mkdir(ruta)
+    except:
+        print('Ya existia ruta')
+    finally:
+        dataframe.to_excel(f'{ruta}/Resultado.xlsx',index=False)

@@ -1,5 +1,5 @@
 import pandas as pd
-from modules.data_process import cargar_datos, limpiar_nulos, estandarizar_texto, mapear_valores
+from modules.data_process import cargar_datos, limpiar_nulos, estandarizar_texto, mapear_valores,crear_Archivo
 
 
 def main():
@@ -26,7 +26,8 @@ def main():
     df_prestamos = mapear_valores(df_prestamos, "status", mapa_status)
     df_merge = pd.merge(df_prestamos, df_articulos, on="item_id")
     
-    
+
+    crear_Archivo(df_merge)
 
     print("Productos más frecuentes:")
     print(df_articulos["name"].value_counts())
