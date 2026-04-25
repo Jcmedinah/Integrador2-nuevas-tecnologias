@@ -29,7 +29,7 @@ def mapear_valores(dataframe, columna, diccionario):
     return dataframe
 
 def crear_Archivo(dataframe):
-    ruta = "./data/procesed"
+    ruta = "./data/processed"
     try:
         os.mkdir(ruta)
     except:

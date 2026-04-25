@@ -6,19 +6,11 @@ def realizar_analisis_taller():
     print("📋 TALLER DE ANÁLISIS DE DATOS - BIBLIOTECA")
     print("="*50)
 
-    articulos = cargar_datos("data/raw/articles.csv")
-    prestamos = cargar_datos("data/raw/loans.csv")
-
-    articulos = limpiar_nulos(articulos)
-    prestamos = limpiar_nulos(prestamos)
-
-    prestamos['loan_date'] = pd.to_datetime(prestamos['loan_date'], dayfirst=True, errors='coerce')
-    prestamos['return_date'] = pd.to_datetime(prestamos['return_date'], dayfirst=True, errors='coerce')
-
-    prestamos['dias_prestamo'] = (prestamos['return_date'] - prestamos['loan_date']).dt.days
-
-    datos_completos = pd.merge(prestamos, articulos, on="item_id")
-
+    datos_completos = pd.read_excel('./data/processed/Resultado.xlsx')
+    
+    datos_completos['return_date'] = pd.to_datetime(datos_completos['return_date'], format='mixed', dayfirst=True)
+    datos_completos['loan_date'] = pd.to_datetime(datos_completos['loan_date'], format='mixed', dayfirst=True)
+    datos_completos['dias_prestamo'] = (datos_completos['return_date'] - datos_completos['loan_date']).dt.days
     frecuencia = datos_completos['name'].value_counts()
     articulo_frecuente = frecuencia.idxmax()
     total_veces = frecuencia.max()
@@ -43,9 +35,6 @@ def realizar_analisis_taller():
     print(f"\n✅ 3. ANÁLISIS CON FILTRADO:")
     print(f"   - Actualmente hay {conteo_laptops} Laptops (Categoría 1) que no han sido devueltas.")
     
-    print("\n" + "="*50)
-    print("🏁 FIN DEL ANÁLISIS - CÓDIGO LISTO PARA ENTREGAR")
-    print("="*50)
 
 if __name__ == "__main__":
     realizar_analisis_taller()
