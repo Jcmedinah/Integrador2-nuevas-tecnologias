@@ -14,6 +14,7 @@ El código está organizado de forma modular para facilitar el mantenimiento y l
 * **`analisis.py`**: Módulo especializado en la generación de reportes y métricas. Realiza cálculos de tiempos, frecuencias de uso y filtrados específicos por categorías.
 * **`modules/data_process.py`**: Capa de lógica de procesamiento que contiene funciones reutilizables para carga segura de CSV, eliminación de nulos y mapeo de valores.
 * **`data/raw/`**: Carpeta destinada a los archivos fuente (`articles.csv` y `loans.csv`).
+* **`data/processed/`**: Carpeta destinada al archivo final (`Resultado final.csv`).
 
 ## 🚀 Funcionalidades Clave
 
