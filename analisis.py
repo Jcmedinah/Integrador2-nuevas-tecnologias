@@ -1,12 +1,12 @@
 import pandas as pd
-from modules.data_process import cargar_datos, limpiar_nulos
+from modules.data_process import cargar_datos
 
 def realizar_analisis_taller():
     print("\n" + "="*50)
     print("📋 TALLER DE ANÁLISIS DE DATOS - BIBLIOTECA")
     print("="*50)
-
-    datos_completos = pd.read_excel('./data/processed/Resultado.xlsx')
+    
+    datos_completos = cargar_datos('./data/processed/Resultado.xlsx')
     
     datos_completos['return_date'] = pd.to_datetime(datos_completos['return_date'], format='mixed', dayfirst=True)
     datos_completos['loan_date'] = pd.to_datetime(datos_completos['loan_date'], format='mixed', dayfirst=True)
